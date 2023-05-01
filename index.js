@@ -31,7 +31,7 @@ function sendMessage() {
             window.dotsGoingUp = false;
         }, 250);
 
-  fetch('http://localhost:3000/message', {
+  fetch('https://ad85-102-215-13-137.ngrok-free.app', {
     method: 'POST',
     headers: {
       accept: 'application.json',
